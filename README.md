@@ -71,3 +71,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 mongodb+srv://kliff01:kliff01@e-com.qk1or.mongodb.net/E-comDB?retryWrites=true&w=majority
+
+  "engines": {
+    "node": "16.13.0",
+    "npm": "8.1.3"
+  }
