@@ -25,6 +25,13 @@ app.use('/api/orders', orderRouter);
 app.get('/api/config/paypal', (req, res) => {
   res.send(process.env.PAYPAL_CLIENT_ID || 'sb'); //sends paypal client Id to frontend
 });  
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static["build"]);
+  app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'build', 'index.html'))
+})
+}
 // app.get('/api/products', (req, res) => {
   //   res.send(data.products); // Only Show the Actual database with no variables
   // });
@@ -37,11 +44,11 @@ app.get('/api/config/paypal', (req, res) => {
   //     res.status(404).send({ message: 'Product Not Found' });
   //   }
   // });
-const __dirname = path.resolve();
-app.use(express.static(path.join(__dirname, '/frontend/build')));
-app.get('*', (req, res) =>
-  res.sendFile(path.join(__dirname, '/frontend/build/index.html'))
-);
+// const __dirname = path.resolve();
+// app.use(express.static(path.join(__dirname, '/frontend/build')));
+// app.get('*', (req, res) =>
+//   res.sendFile(path.join(__dirname, '/frontend/build/index.html'))
+// );
 app.get('/', (req, res) => {
     res.send('Server is ready');
   });
