@@ -5,7 +5,7 @@ import productRouter from './Routers/ProductRouter.js';
 import dotenv from 'dotenv';
 import NotesRouter from './Routers/NotesRouter.js';
 import orderRouter from './Routers/OrderRoute.js';
-import path from 'path'
+// import path from 'path'
 
 dotenv.config();
 
@@ -27,12 +27,12 @@ app.get('/api/config/paypal', (req, res) => {
   res.send(process.env.PAYPAL_CLIENT_ID || 'sb'); //sends paypal client Id to frontend
 });  
 
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static["build"]);
-  app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, 'build', 'index.html'))
-})
-}
+// if (process.env.NODE_ENV === "production") {
+//   app.use(express.static["build"]);
+//   app.get('*', (req, res) => {
+//   res.sendFile(path.resolve(__dirname, 'build', 'index.html'))
+// })
+// }
 // app.get('/api/products', (req, res) => {
   //   res.send(data.products); // Only Show the Actual database with no variables
   // });
