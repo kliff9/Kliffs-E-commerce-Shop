@@ -46,10 +46,10 @@ app.get('/api/config/paypal', (req, res) => {
   //   }
   // });
 const __dirname = path.resolve();
-app.use(express.static(path.join(__dirname, '/build')));
-app.get('*', (req, res) =>
-  res.sendFile(path.join(__dirname, '/build/index.html'))
-);
+// app.use(express.static(path.join(__dirname, '/build')));
+// app.get('*', (req, res) =>
+//   res.sendFile(path.join(__dirname, '/build/index.html'))
+// );
 app.get('/', (req, res) => {
     res.send('Server is ready');
   });
@@ -70,9 +70,9 @@ app.listen(port, () => {
 });
 
 // step 3
-// if (process.env.NODE_ENV === "production") { //if on merkudo
-//   app.use(express.static["build"]); //  app.use(express.static("build"));
-//    app.get('*', (req, res) => {
-//    res.sendFile(path.resolve(__dirname, 'build', 'index.html'))
-//  })
-//  }
+if (process.env.NODE_ENV === "production") { //if on merkudo
+  app.use(express.static("build")); //  app.use(express.static("build"));
+   app.get('*', (req, res) => {
+   res.sendFile(path.resolve(__dirname, 'build', 'index.html'))
+ })
+ }
