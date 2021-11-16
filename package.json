@@ -30,7 +30,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm install && npm run react-scripts build",
+    "build": "react-scripts build",
     "buildq": "cd frontend && npm install && npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
