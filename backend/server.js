@@ -5,7 +5,7 @@ import productRouter from './Routers/ProductRouter.js';
 import dotenv from 'dotenv';
 import NotesRouter from './Routers/NotesRouter.js';
 import orderRouter from './Routers/OrderRoute.js';
-// import path from 'path'
+import path from 'path'
 
 dotenv.config();
 
@@ -45,11 +45,11 @@ app.get('/api/config/paypal', (req, res) => {
   //     res.status(404).send({ message: 'Product Not Found' });
   //   }
   // });
-// const __dirname = path.resolve();
-// app.use(express.static(path.join(__dirname, '/frontend/build')));
-// app.get('*', (req, res) =>
-//   res.sendFile(path.join(__dirname, '/frontend/build/index.html'))
-// );
+const __dirname = path.resolve();
+app.use(express.static(path.join(__dirname, '/frontend/build')));
+app.get('*', (req, res) =>
+  res.sendFile(path.join(__dirname, '/frontend/build/index.html'))
+);
 app.get('/', (req, res) => {
     res.send('Server is ready');
   });
@@ -69,3 +69,10 @@ app.listen(port, () => {
   console.log(`Serve at http://localhost:${port}`);
 });
 
+// step 3
+// if (process.env.NODE_ENV === "production") { //if on merkudo
+//   app.use(express.static["build"]); //  app.use(express.static("build"));
+//    app.get('*', (req, res) => {
+//    res.sendFile(path.resolve(__dirname, 'build', 'index.html'))
+//  })
+//  }
