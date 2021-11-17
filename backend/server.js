@@ -45,7 +45,7 @@ app.get('/api/config/paypal', (req, res) => {
   //     res.status(404).send({ message: 'Product Not Found' });
   //   }
   // });
-const __dirname = path.resolve();
+// const __dirname = path.resolve();
 // app.use(express.static(path.join(__dirname, '/build')));
 // app.get('*', (req, res) =>
 //   res.sendFile(path.join(__dirname, '/build/index.html'))
