@@ -1,7 +1,6 @@
 import p2 from './homeimage/p2.webp'
-import p3 from './homeimage/p3.webp'
+import Monitor from './homeimage/Monitor.webp'
 import p4 from './homeimage/p4.jpg'
-import p5 from './homeimage/p5.jpg'
 import p6 from './homeimage/p6.webp'
 import p7 from './homeimage/p7.jpg'
 import p8 from './homeimage/p8.jpg'
@@ -14,7 +13,18 @@ import p14 from './homeimage/p14.jpg'
 import p15 from './homeimage/p15.jpg'
 import p16 from './homeimage/p16.jpg'
 import p17 from './homeimage/p17.jpg'
-// import p2 from './homeimage/p2.webp'
+
+import Customer1 from './homeimage/customer-1.jpg'
+import Customer2 from './homeimage/customer-2.jpg'
+import Customer3 from './homeimage/customer-3.jpg'
+import Customer4 from './homeimage/customer-4.jpg'
+import Customer5 from './homeimage/customer-5.jpg'
+import Customer6 from './homeimage/customer-6.jpg'
+
+import Amanda from './homeimage/Amanda.jpg'
+import Katie from './homeimage/Katie.jpg'
+import Caleb from './homeimage/Caleb.jpg'
+import Trevon from './homeimage/Trevon.jpg'
 
 import { faEnvelope,  faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -106,12 +116,12 @@ return (
             {/* <a href="#how" class="btn btn--outline">Learn more &darr;</a> */}
             <div class="delivered-meals">
               <div class="delivered-imgs">
-                <img src="/image2/customers/customer-1.jpg" alt="Customer photo" />
-                <img src="./image2/customers/customer-2.jpg" alt="Customer photo" />
-                <img src="image2/customers/customer-3.jpg" alt="Customer photo" />
-                <img src="image2/customers/customer-4.jpg" alt="Customer photo" />
-                <img src="image2/customers/customer-5.jpg" alt="Customer photo" />
-                <img src="image2/customers/customer-6.jpg" alt="Customer photo" />
+                <img src={Customer1} alt="Customer photo" />
+                <img src={Customer2} alt="Customer photo" />
+                <img src={Customer3} alt="Customer photo" />
+                <img src={Customer4} alt="Customer photo" />
+                <img src={Customer5} alt="Customer photo" />
+                <img src={Customer6} alt="Customer photo" />
               </div>
               <p class="delivered-text">
                 <span>50,000+</span> Monitors delivered last year!
@@ -120,7 +130,7 @@ return (
           </div>
           <div class="hero-img-box">
               <img
-                src="image2/Monitor.webp"
+                src={Monitor}
                 class="hero-img"
                 alt="Woman enjoying food, meals in storage container, and food bowls on a table"
               />
@@ -247,7 +257,7 @@ return (
               <img
                 class="testimonial-img"
                 alt="Photo of customer Amanda Bryson"
-                src="image2/customers/Amanda.jpg"
+                src={Amanda}
               />
               <blockquote class="testimonial-text">
               Good insight and easy to use - I particularly like 
@@ -260,7 +270,7 @@ return (
               <img
                 class="testimonial-img"
                 alt="Photo of customer Caleb Hadley"
-                src="image2/customers/Caleb.jpg"
+                src={Caleb}
               />
               <blockquote class="testimonial-text">
               Packaging perfect, delivered on time. This is easy to set up and use, great controls over brightness and contrast.
@@ -273,7 +283,7 @@ I would buy again.
               <img
                 class="testimonial-img"
                 alt="Photo of customer Trevon Miller"
-                src="image2/customers/Trevon.jpg"
+                src={Trevon}
               />
               <blockquote class="testimonial-text">
               Use it for work, very nice quality and LOVE the ability 
@@ -287,7 +297,7 @@ I would buy again.
               <img
                 class="testimonial-img"
                 alt="Photo of customer Katie Smith"
-                src="image2/customers/Katie.jpg"
+                src={Trevon}
               />
               <blockquote class="testimonial-text">
               Love this monitor, just needed something for school with everything being online and this fits all
@@ -378,7 +388,7 @@ I would buy again.
           </figure>
           <figure class="gallery-item">
             <img
-              src="image2/gallery/p12.jpg"
+              src={p12}
               alt="Photo of beautifully
             arranged food"
             />
