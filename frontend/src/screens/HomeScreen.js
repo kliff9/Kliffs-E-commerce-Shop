@@ -1,5 +1,21 @@
-import Draw_tablet from './video/Draw_tablet.mp4'
-import p2 from './video/p2.webp'
+import p2 from './homeimage/p2.webp'
+import p3 from './homeimage/p3.webp'
+import p4 from './homeimage/p4.jpg'
+import p5 from './homeimage/p5.jpg'
+import p6 from './homeimage/p6.webp'
+import p7 from './homeimage/p7.jpg'
+import p8 from './homeimage/p8.jpg'
+import p9 from './homeimage/p9.webp'
+import p10 from './homeimage/p10.jpg'
+import p11 from './homeimage/p11.jpg'
+import p12 from './homeimage/p12.jpg'
+import p13 from './homeimage/p13.jpg'
+import p14 from './homeimage/p14.jpg'
+import p15 from './homeimage/p15.jpg'
+import p16 from './homeimage/p16.jpg'
+import p17 from './homeimage/p17.jpg'
+// import p2 from './homeimage/p2.webp'
+
 import { faEnvelope,  faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlug } from '@fortawesome/free-solid-svg-icons';
@@ -11,7 +27,6 @@ import { faAdjust } from '@fortawesome/free-solid-svg-icons';
 import { faLightbulb } from '@fortawesome/free-solid-svg-icons';
 
 export default function HomeScreen() {
-const VideoSrc = Draw_tablet
 
 return (
     <div className="thehead">
@@ -287,77 +302,76 @@ I would buy again.
           <figure class="gallery-item">
             <img
               src={p2}
-              // src="image2/gallery/p2.webp"
               alt="Photo of beautifully
             arranged food"
             />
           </figure>
           <figure class="gallery-item">
             <img
-              src="./image2/gallery/p13.jpg"
+              src={p13}
               alt="Photo of beautifully
             arranged food"
             />
           </figure>
           <figure class="gallery-item">
             <img
-              src="/image2/gallery/p17.jpg"
+              src={p17}
               alt="Photo of beautifully
             arranged food"
             />
           </figure>
           <figure class="gallery-item">
             <img
-              src="image2/gallery/p4.jpg"
+              src={p4}
               alt="Photo of beautifully
             arranged food"
             />
           </figure>
           <figure class="gallery-item">
             <img
-              src="image2/gallery/p16.jpg"
+              src={p16}
               alt="Photo of beautifully
             arranged food"
             />
           </figure>
           <figure class="gallery-item">
             <img
-              src="image2/gallery/p6.webp"
+              src={p6}
               alt="Photo of beautifully
             arranged food"
             />
           </figure>
           <figure class="gallery-item">
             <img
-              src="image2/gallery/p7.jpg"
+              src={p7}
               alt="Photo of beautifully
             arranged food"
             />
           </figure>
           <figure class="gallery-item">
             <img
-              src="image2/gallery/p8.jpg"
+              src={p8}
               alt="Photo of beautifully
             arranged food"
             />
           </figure>
           <figure class="gallery-item">
             <img
-              src="image2/gallery/p15.jpg"
+              src={p15}
               alt="Photo of beautifully
             arranged food"
             />
           </figure>
           <figure class="gallery-item">
             <img
-              src="image2/gallery/p10.jpg"
+              src={p10}
               alt="Photo of beautifully
             arranged food"
             />
           </figure>
           <figure class="gallery-item">
             <img
-              src="image2/gallery/p11.jpg"
+              src={p11}
               alt="Photo of beautifully
             arranged food"
             />
