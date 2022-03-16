@@ -115,7 +115,7 @@ const data = {
                             price: 1600,
                             brand: "BenQ",
                             rating: 4.2,
-                            numReviews: 12,
+                            numReviews: 34,
                             description: `With 99% coverage of the Adobe RGB color space, the SW271C 27" 16:9 4K HDR IPS Monitor from BenQ 
                             is designed for those demanding enhanced color accuracy for tasks such as video editing, photo editing, graphic design,
                              and more. In addition to 99% coverage of the Adobe RGB color space, this monitor also covers 100% of the sRGB and Rec.709`,
