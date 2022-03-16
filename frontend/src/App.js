@@ -21,6 +21,8 @@ import { faKiwiBird } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './css/style.css'
 import './css/general.css'
+import './css/queries.css'
+
 
 function App() {
   const cart = useSelector(state => state.cart)
