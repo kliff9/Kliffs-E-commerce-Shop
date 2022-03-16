@@ -4,7 +4,6 @@ import p4 from './homeimage/p4.jpg'
 import p6 from './homeimage/p6.webp'
 import p7 from './homeimage/p7.jpg'
 import p8 from './homeimage/p8.jpg'
-import p9 from './homeimage/p9.webp'
 import p10 from './homeimage/p10.jpg'
 import p11 from './homeimage/p11.jpg'
 import p12 from './homeimage/p12.jpg'
@@ -189,9 +188,7 @@ return (
             </div>
             </div>
             </div>
-        <div class="container all-recipes">
-          <a href="#" class="link">See all recipes &rarr;</a>
-        </div>
+
       </section>
 
       <section class="section-testimonials" id="testimonials">
@@ -244,7 +241,7 @@ I would buy again.
               <img
                 class="testimonial-img"
                 alt="Photo of customer Katie Smith"
-                src={Trevon}
+                src={Katie}
               />
               <blockquote class="testimonial-text">
               Love this monitor, just needed something for school with everything being online and this fits all
