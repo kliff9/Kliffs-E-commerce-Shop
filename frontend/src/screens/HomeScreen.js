@@ -1,4 +1,5 @@
 import Draw_tablet from './video/Draw_tablet.mp4'
+import p2 from './video/p2.webp'
 import { faEnvelope,  faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlug } from '@fortawesome/free-solid-svg-icons';
@@ -285,7 +286,7 @@ I would buy again.
         <div class="gallery">
           <figure class="gallery-item">
             <img
-              src="../cssIMG/p2.webp"
+              src={p2}
               // src="image2/gallery/p2.webp"
               alt="Photo of beautifully
             arranged food"
