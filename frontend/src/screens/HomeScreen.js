@@ -90,8 +90,8 @@ return (
             {/* <a href="#how" class="btn btn--outline">Learn more &darr;</a> */}
             <div class="delivered-meals">
               <div class="delivered-imgs">
-                <img src="image2/customers/customer-1.jpg" alt="Customer photo" />
-                <img src="image2/customers/customer-2.jpg" alt="Customer photo" />
+                <img src="/image2/customers/customer-1.jpg" alt="Customer photo" />
+                <img src="./image2/customers/customer-2.jpg" alt="Customer photo" />
                 <img src="image2/customers/customer-3.jpg" alt="Customer photo" />
                 <img src="image2/customers/customer-4.jpg" alt="Customer photo" />
                 <img src="image2/customers/customer-5.jpg" alt="Customer photo" />
