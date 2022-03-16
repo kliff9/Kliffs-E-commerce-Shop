@@ -27,8 +27,8 @@ import Trevon from './homeimage/Trevon.jpg'
 
 
 import LG from './homeimage/LG.jpg'
-import Cooler_Master from './homeimage/Cooler_Master.png'
-import ASUS from './homeimage/ASUS.jpg'
+import SAMSUNG from './homeimage/SAMSUNG.jpg'
+import SIPS from './homeimage/Cooler_Master.png'
 
 
 import { faEnvelope,  faPhone } from '@fortawesome/free-solid-svg-icons';
@@ -71,7 +71,7 @@ return (
                 <img src={Customer6} alt="Customer photo" />
               </div>
               <p class="delivered-text">
-                <span>50,000+</span> Monitors delivered last year!
+                <span>5,000+</span> Monitors delivered last year!
               </p>
             </div>
           </div>
@@ -98,7 +98,7 @@ return (
         <div class="container grid grid--3-cols margin-bottom-md">
           <div class="meal">
             <img
-              src={Cooler_Master}
+              src={SAMSUNG}
               class="meal-img"
               alt="Japanese Gyozas"
             />
@@ -106,22 +106,22 @@ return (
               <div class="meal-tags">
                 <span class="tag tag--vegetarian">Budget Option</span>
               </div>
-              <p class="meal-title">Cooler Master PC</p>
+              <p class="meal-title">SAMSUNG LC27F3</p>
               <ul class="meal-attributes">
                 <li class="meal-attribute">
                   <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
-                  <span><strong>Refresh Rate: </strong> 144 Hz</span>
+                  <span><strong>Refresh Rate: </strong>60  Hz</span>
                 </li>
                 <li class="meal-attribute">
                   <ion-icon
                     class="meal-icon"
                     name="restaurant-outline"
                   ></ion-icon>
-                  <span><strong>Screen Size: </strong>  34 Inches </span>
+                  <span><strong>Screen Size: </strong>  34.0 Inches </span>
                 </li>
                 <li class="meal-attribute">
                   <ion-icon class="meal-icon" name="star-outline"></ion-icon>
-                  <span><strong>4.9</strong> rating (537)</span>
+                  <span><strong>4.9</strong> rating (355)</span>
                 </li>
               </ul>
             </div>
@@ -148,11 +148,11 @@ return (
                     class="meal-icon"
                     name="restaurant-outline"
                   ></ion-icon>
-                  <span><strong>Screen Size: </strong>  38 Inches </span>
+                  <span><strong>Screen Size: </strong>  38.0 Inches </span>
                 </li>
                 <li class="meal-attribute">
                   <ion-icon class="meal-icon" name="star-outline"></ion-icon>
-                  <span><strong>4.9</strong> rating (537)</span>
+                  <span><strong>4.5</strong> rating (377)</span>
                 </li>
               </ul>
             </div>
@@ -160,7 +160,7 @@ return (
 
             <div class="meal">
             <img
-              src={ASUS}
+              src={SIPS}
               class="meal-img"
               alt="Japanese Gyozas"
             />
@@ -168,11 +168,11 @@ return (
               <div class="meal-tags">
                 <span class="tag tag--vegetarian">Under 200 Option</span>
               </div>
-              <p class="meal-title">ASUS VG246H</p>
+              <p class="meal-title">Sceptre IPS 27"</p>
               <ul class="meal-attributes">
                 <li class="meal-attribute">
                   <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
-                  <span><strong>Refresh Rate: </strong> 165 Hz</span>
+                  <span><strong>Refresh Rate: </strong> 75 Hz</span>
                 </li>
                 <li class="meal-attribute">
                   <ion-icon
@@ -183,7 +183,7 @@ return (
                 </li>
                 <li class="meal-attribute">
                   <ion-icon class="meal-icon" name="star-outline"></ion-icon>
-                  <span><strong>4.9</strong> rating (537)</span>
+                  <span><strong>3.9</strong> rating (270)</span>
                 </li>
               </ul>
             </div>
