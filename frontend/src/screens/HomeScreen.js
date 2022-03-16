@@ -46,65 +46,7 @@ export default function HomeScreen() {
 return (
     <div className="thehead">
 
-    {/* <div className="header">
-        <div className="header-content">
-            <div className="container">
-                    <div className="middlediv">
-                        <h1 className="kliffsstorelarge ">Kliff's Store</h1>
 
-                        <Link to="/shop" className="bn60 ">Shop Now</Link>
-                    </div>  
-            </div> 
-            
-        </div>        
-        <video 
-        autoPlay 
-        loop
-        muted
-        id="video-background" 
-        poster="/img/draw_tablet.PNG" 
-        playsinline
-        >
-            <source src={VideoSrc} type="video/mp4" />
-        </video>
-    </div> 
-
-
-
-    <div className="ContactBackground">
-    <div id="contact" className="form-1">
-            <div className="contactbox">
-                    <h2 className="contactH-heading">Contact details</h2>
-                    <p className="contactP-heading">Fill out information bellow to Contact Us</p>
-                    <ul className="list-unstyled li-space-lg">
-                        <li> <FontAwesomeIcon icon= {faMapMarkerAlt}></FontAwesomeIcon> West Palm Beach FL, US</li>
-                        <li> <FontAwesomeIcon icon= {faPhone}></FontAwesomeIcon> <a href="tel:00817202212">+1 777-777-7777</a></li>
-                        <li> <FontAwesomeIcon icon= {faEnvelope}></FontAwesomeIcon> <a href="mailto:contact@site.com">kliffsStore@gmail.com</a></li>
-                    </ul>
-            </div> 
-            <div className="roww">
-                <div>
-                    
-                    <form>
-                        <div className="form-group">
-                            <input type="text" className="form-control-input " placeholder="Name" required></input>
-                        </div>
-                        <div className="form-group">
-                            <input type="email" className="form-control-input" placeholder="Email" required></input>
-                        </div>
-                        <div className="form-group">
-                            <textarea className="form-control-textarea" placeholder="Message" required></textarea>
-                        </div>
-                        <div className="form-group">
-                            <button type="submit" className="form-control-submit-button">Submit</button>
-                        </div>
-                    </form>
-
-                </div> 
-            </div> 
-        </div> 
-    </div> 
-     */}
     <div>
       <section class="section-hero">
         <div class="hero">
