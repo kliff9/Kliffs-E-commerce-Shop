@@ -264,8 +264,15 @@ img.small {
   color: #f08000;
 }
 /* Table */
+
+.tablediv {
+  width: 100%;
+
+}
+
 .table {
   width: 100%;
+  font-size: auto;
   border-collapse: collapse;
 }
 .table tbody tr:nth-of-type(odd) {

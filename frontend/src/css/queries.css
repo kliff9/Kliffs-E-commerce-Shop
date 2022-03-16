@@ -295,6 +295,20 @@
     height: 32rem;
     grid-row: 1;
   }
+  .table {
+    width: 100%;
+    font-size: 1.25rem;
+
+
+  }
+
+  .grid-container {
+
+  }
+
+  /* .orange_nav {
+    width: 52rem;
+  } */
 }
 
 /* 
