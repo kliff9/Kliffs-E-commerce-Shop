@@ -9,7 +9,6 @@ import p10 from './homeimage/p10.jpg'
 import p11 from './homeimage/p11.jpg'
 import p12 from './homeimage/p12.jpg'
 import p13 from './homeimage/p13.jpg'
-import p14 from './homeimage/p14.jpg'
 import p15 from './homeimage/p15.jpg'
 import p16 from './homeimage/p16.jpg'
 import p17 from './homeimage/p17.jpg'
@@ -25,6 +24,12 @@ import Amanda from './homeimage/Amanda.jpg'
 import Katie from './homeimage/Katie.jpg'
 import Caleb from './homeimage/Caleb.jpg'
 import Trevon from './homeimage/Trevon.jpg'
+
+
+import LG from './homeimage/LG.jpg'
+import Cooler_Master from './homeimage/Cooler_Master.png'
+import ASUS from './homeimage/ASUS.jpg'
+
 
 import { faEnvelope,  faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -151,7 +156,7 @@ return (
         <div class="container grid grid--3-cols margin-bottom-md">
           <div class="meal">
             <img
-              src="image2/monitor/Cooler_Master.png"
+              src={Cooler_Master}
               class="meal-img"
               alt="Japanese Gyozas"
             />
@@ -182,7 +187,7 @@ return (
 
           <div class="meal">
             <img
-              src="image2/monitor/LG.jpg"
+              src={LG}
               class="meal-img"
               alt="Japanese Gyozas"
             />
@@ -213,7 +218,7 @@ return (
 
             <div class="meal">
             <img
-              src="image2/monitor/ASUS.jpg"
+              src={ASUS}
               class="meal-img"
               alt="Japanese Gyozas"
             />
