@@ -293,7 +293,7 @@ I would buy again.
           </figure>
           <figure class="gallery-item">
             <img
-              src="/image2/gallery/p13.jpg"
+              src="./image2/gallery/p13.jpg"
               alt="Photo of beautifully
             arranged food"
             />
