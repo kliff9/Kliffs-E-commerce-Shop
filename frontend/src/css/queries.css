@@ -302,9 +302,9 @@
 
   }
 
-  .grid-container {
-
-  }
+ .checkout-steps > div {
+   padding: 0.65rem;
+ }
 
   /* .orange_nav {
     width: 52rem;
