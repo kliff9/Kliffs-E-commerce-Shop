@@ -130,6 +130,9 @@ a.brand {
 .col-1 {
   flex: 1 1 25rem;
 }
+.description {
+  margin-left: 1rem;
+}
 .col-2 {
   flex: 2 1 50rem;
 }
@@ -156,7 +159,7 @@ img.medium:hover {
 }
 
 img.large {
-  width: 100%;
+  width: 95%;
 }
 
 /* Card */

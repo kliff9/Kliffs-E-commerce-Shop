@@ -59,7 +59,7 @@ const data = {
                 countInStock: 10
             },
                 {
-                    name:"AOC C27G2Z",
+                    name:`AOC C27G2Z 27"`,
                     category: "27 inches",
                     image: "/img/AOCC2.png",
                     price: 249,
@@ -71,7 +71,7 @@ const data = {
                     countInStock: 27
                     },
                     {
-                        name:`HP 24mh FHD`,
+                        name:`HP 24mh FHD 24" `,
                         category: "24 inches",
                         image: "/img/HP24.png",
                         price: 175,
@@ -94,7 +94,7 @@ const data = {
                             countInStock: 31
                             },
                             {
-                           name:`LG 27GL83A-B`,
+                           name:`LG 27GL83A-B 27" `,
                             category: "Mouse",
                             image: "/img/LG27.png",
                             price: 358,

@@ -34,7 +34,7 @@ console.log('qty: ', qty)
    <div className="col-2">
      <img className="large" src={process.env.PUBLIC_URL + product.image} alt={product.name}></img>
    </div>
-   <div className="col-1">
+   <div className="col-1 description">
      <ul>
        <li>
          <h1>{product.name}</h1>
