@@ -24,5 +24,6 @@ https://kliff-e-com.herokuapp.com/
 
 ## Preview
 
-https://user-images.githubusercontent.com/32655437/155410167-59068256-9119-4071-8acf-6c8b804767a4.mp4
+
+https://user-images.githubusercontent.com/32655437/159113107-4a4f460f-cc02-48fe-a938-cd414f5448a1.mp4
 
